@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUMIKO</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+</head>
+  <body>
+    <main>
+        <h1>Commissions Quote Calculator</h1>  
+          <div class="form-container">
+            <div class="rectangle"></div>
+            <div class="rectangle-content">
+    <div class="form-wrapper">
+      <div class="form-group">
+        <label class="category-label">Emotes</label>
+        <div class="form-input-group">
+          <input type="number" name="emotes" id="emotes" min="0" placeholder="0" >
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="category-label">Chibis</label>
+        <div class="form-input-group">
+          <input type="number" name="chibis" id="chibis" min="0" placeholder="0" >
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="category-label">Panels</label>
+        <div class="form-input-group">
+          <input type="number" name="panels" id="panels" min="0" placeholder="0" >
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="category-label">Badges</label>
+        <div class="form-input-group">
+          <input type="number" name="badges" id="badges" min="0" placeholder="0"  >
+        </div>
+      </div>
+        
+     <div class="form-group-cost">
+  <label for="total-cost" class="label-left">Total Cost:</label>
+  <div class="form-input-group">
+    <span id="total-cost">$0.00</span>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+    </main>
+    <footer>
+      <h2>QUMIKO</h1>
+    </footer>
+  <script src="index.js"></script>
+  </body>
+</html>

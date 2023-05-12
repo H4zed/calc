@@ -1,0 +1,169 @@
+html {
+ background-size: cover;
+ height: 100%;
+  background: linear-gradient(244.51deg, #7761FF -0.35%, #8AB8FF 101.93% );
+  position: relative;
+  z-index: 1;
+}
+body {
+  font-family: 'Fredoka One', cursive;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Fredoka One', cursive;
+}
+h1{
+text-align: center;
+top: 150px;
+font-family: 'Fredoka One';
+font-style: normal;
+font-weight: 400;
+font-size: 58px;
+line-height: 60px;
+color: #FFFFFF;
+}
+.rectangle {
+  position: relative; /* Чтобы дочерний элемент rectangle-content использовал его как точку отсчета */
+  background-color: white;
+  height: 617px;
+  width: 460px;
+  border-radius: 15px;
+  margin: 0 auto; /* Центрирование прямоугольника */
+  justify-content: center;
+  align-items: center;
+}
+
+.rectangle-content {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  text-align: center; 
+}
+.form-input-group{
+	background: linear-gradient(244.51deg, #7761FF -0.35%, #8AB8FF 101.93%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+.category-label{
+	margin-right: 100px;
+	font-family: 'Fredoka One';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+color: #061136;
+}
+.form-group-cost{
+	font-family: 'Fredoka One';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+
+color: #061136;
+}
+.label-left {
+  padding-right: 20px;
+}
+
+h2{
+
+}
+
+.form-group-cost {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Fredoka One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  color: #061136;
+}
+
+.form-group-cost #total-cost {
+
+  margin: 0;
+  padding: 0;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.form-container {
+  position: relative;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-group {
+  display: flex; /* Добавляем свойство для выравнивания элементов в ряд */
+  align-items: center; /* Выравнивание по центру по вертикали */
+  margin-bottom: 60px;
+  justify-content: space-between;
+}
+.form-input-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.form-input-group input {
+  width: 100px;
+}
+
+
+input:focus {
+	outline: none;
+  border: none;
+}
+input:focus::placeholder {
+  opacity: 0;
+}
+
+input {
+	font-family: 'Fredoka One';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+
+background: linear-gradient(244.51deg, rgba(119, 97, 255, 0.7) -0.35%, rgba(138, 184, 255, 0.7) 101.93%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent
+	text-align: center;
+  border: none;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+footer {
+  position: fixed;
+  bottom: 10px;
+  left: 25px;
+}
+
+footer h2 {
+  color: white;
+  font-size: 30px;
+}

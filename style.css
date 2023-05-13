@@ -14,9 +14,7 @@
     padding: 10px;
   }
   /* Hide social media icons */
-  .sc {
-    display: none;
-  }
+  
   /* Adjust button width */
   .button {
     width: 80%;

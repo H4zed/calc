@@ -15,8 +15,8 @@
   }
   /* Hide social media icons */
   h2 {
-    opacity: 0;
     display: none;
+    opacity: 0;
   }
   footer h2{
     display: none;

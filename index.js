@@ -20,18 +20,18 @@ chibisInput.addEventListener('input', updateTotalCost);
 panelsInput.addEventListener('input', updateTotalCost);
 badgesInput.addEventListener('input', updateTotalCost);
 
-// функция для обновления общей стоимости на странице
 function updateTotalCost() {
   // получаем значения из всех полей и суммируем их
-  const emotesCost = parseFloat(emotesInput.value) * 7 || 0;
-  const chibisCost = parseFloat(chibisInput.value) * 10 || 0;
-  const panelsCost = parseFloat(panelsInput.value) * 10 || 0;
-  const badgesCost = parseFloat(badgesInput.value) * 5 || 0;
+  const emotesCost = parseFloat(emotesInput.value) * (parseFloat(emotesInput.value) > 2 ? 0.87 : 1) * 7 || 0;
+  const chibisCost = parseFloat(chibisInput.value) * (parseFloat(chibisInput.value) > 2 ? 0.87 : 1) * 10 || 0;
+  const panelsCost = parseFloat(panelsInput.value) * (parseFloat(panelsInput.value) > 2 ? 0.87 : 1) * 10 || 0;
+  const badgesCost = parseFloat(badgesInput.value) * (parseFloat(badgesInput.value) > 2 ? 0.87 : 1) * 5 || 0;
   const totalCost = emotesCost + chibisCost + panelsCost + badgesCost;
   
   // обновляем текст на странице
-  totalCostElement.textContent = `$${totalCost.toFixed(2)}`;
+  totalCostElement.textContent = `$${totalCost.toFixed(0)}`;
 }
+
 
 // Очищаем поля формы, если в них стоит "0"
 const inputs = [emotesInput, chibisInput, panelsInput, badgesInput];

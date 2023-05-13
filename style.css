@@ -24,45 +24,100 @@ line-height: 60px;
 color: #FFFFFF;
 }
 .button-container {
-  margin-top: 30px;
-  position: relative;
-  bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   text-align: center;
 }
+
+.total-cost{
+  position: absolute;
+  right: 20px;
+  background: linear-gradient(244.51deg, #7761FF -0.35%, #8AB8FF 101.93%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.label-left {
+line-height: 1.2;
+  font-size: 60px;
+  -webkit-text-fill-color: transparent;
+  position: absolute;
+  margin-left: 20px;
+  left: 0;
+  background: linear-gradient(244.51deg, #7761FF -0.35%, #8AB8FF 101.93%);
+-webkit-background-clip: text;
+background-clip: text;
+color: transparent;
+text-fill-color: transparent;
+}
+.calc{
+    margin: 0 auto;
+    
+}
+.calc-content{
+  position: relative;
+   margin: 0 auto;
+    height: 84px;
+    width: 460px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;}
+.box{
+  position: relative; /* Чтобы дочерний элемент rectangle-content использовал его как точку отсчета */
+  background-color: white;
+  height: 140px;
+  width: 460px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  margin: 0 auto; /* Центрирование прямоугольника */
+  justify-content: center;
+  align-items: center;
+}
+.box_content{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
 .button {
-  font-size: 22px;
-  margin-top: 30px;
-  border-radius: 0.625rem;
+  background-color: rgb(74, 125, 255);
+  background-image: linear-gradient(45deg, rgb(188, 171, 255) 0%, rgba(74, 125, 255, 0.008) 100%);
+  font-size: 18px;
+  border-radius: 0.825rem;
   text-decoration: none;
-  background: #6776FF;
   color: white;
-    padding: 30px 50px;
+    padding: 25px 30px;
     display: inline-block;
     text-align: center;
     display: inline-block;
   vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
+  transition: transform 0.5s ease 0s, color 0.5s ease 0s, background-color 0.5s ease 0s, border-color 0.5s ease 0s;
+
 }
-.button:hover, .button:focus, .button:active {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+.button:hover{
+    background-color: rgb(155, 243, 240) !important;
+    transform: scale(1.025);
 }
 .rectangle {
   position: relative; /* Чтобы дочерний элемент rectangle-content использовал его как точку отсчета */
   background-color: white;
-  height: 617px;
   width: 460px;
-  border-radius: 15px;
+  height: 495px;
+  border-radius: 30px;
   margin: 0 auto; /* Центрирование прямоугольника */
   justify-content: center;
   align-items: center;
+  margin-bottom: 40px;
 }
 
 .rectangle-content {
@@ -76,9 +131,10 @@ color: #FFFFFF;
   justify-content: center;
   align-items: center;
   z-index: 1;
-  text-align: center; 
+  text-align: center;
 }
 .form-input-group{
+  padding-left: 50px;
 	background: linear-gradient(244.51deg, #7761FF -0.35%, #8AB8FF 101.93%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
@@ -112,27 +168,28 @@ h2{
 }
 
 .form-group-cost {
-
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-family: 'Fredoka One';
   font-style: normal;
   font-weight: 400;
-  font-size: 32px;
+  font-size: 42px;
   line-height: 39px;
   color: #061136;
 }
 
 .form-group-cost #total-cost {
 
+
   margin: 0;
   padding: 0;
-  font-size: 36px;
+  font-size: 42px;
   font-weight: bold;
 }
 
 .form-container {
+  margin-top: 40px;
   position: relative;
   height: 100%;
   display: flex;
@@ -170,7 +227,7 @@ input {
 	font-family: 'Fredoka One';
 font-style: normal;
 font-weight: 400;
-font-size: 32px;
+font-size: 36px;
 line-height: 39px;
 /* identical to box height */
 

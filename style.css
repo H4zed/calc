@@ -1,4 +1,3 @@
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 /* CSS rules for small screens */
 @media screen and (max-width: 767px) {
@@ -17,9 +16,6 @@
   h2 {
     display: none;
     opacity: 0;
-  }
-  footer h2{
-    display: none;
   }
   /* Adjust button width */
   .button {

@@ -11,7 +11,9 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Fredoka One', cursive;
 }
+
 h1{
+  margin-bottom: 50px;
 text-align: center;
 top: 150px;
 font-family: 'Fredoka One';
@@ -20,6 +22,37 @@ font-weight: 400;
 font-size: 58px;
 line-height: 60px;
 color: #FFFFFF;
+}
+.button-container {
+  margin-top: 30px;
+  position: relative;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+.button {
+  font-size: 22px;
+  margin-top: 30px;
+  border-radius: 0.625rem;
+  text-decoration: none;
+  background: #6776FF;
+  color: white;
+    padding: 30px 50px;
+    display: inline-block;
+    text-align: center;
+    display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.button:hover, .button:focus, .button:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
 }
 .rectangle {
   position: relative; /* Чтобы дочерний элемент rectangle-content использовал его как точку отсчета */

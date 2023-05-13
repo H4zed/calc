@@ -1,44 +1,28 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+/* CSS rules for small screens */
 @media only screen and (max-width: 600px) {
-  html {
-    font-size: 16px;
-  }
-  
+  /* Adjust font sizes */
   h1 {
-    font-size: 40px;
-    margin-bottom: 30px;
+    font-size: 32px;
   }
-  
-  .label-left {
-    font-size: 30px;
-  }
-  
   .category-label {
-    font-size: 20px;
+    font-size: 18px;
   }
-  
-  .form-group input[type="number"] {
-    font-size: 20px;
+  .form-input-group input {
+    font-size: 24px;
     padding: 10px;
   }
-  
-  .button {
-    font-size: 18px;
-    padding: 10px 20px;
-  }
-  
+  /* Hide social media icons */
   .sc {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
+    display: none;
   }
-  
-  .sc img {
-    height: 30px;
-    margin: 10px;
+  /* Adjust button width */
+  .button {
+    width: 80%;
   }
 }
+
 
 html {
  background-size: cover;

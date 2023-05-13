@@ -15,9 +15,10 @@
   }
   /* Hide social media icons */
   h2 {
+    opacity: 0;
     display: none;
   }
-  footer{
+  footer h2{
     display: none;
   }
   /* Adjust button width */
@@ -60,9 +61,7 @@ img {
   width: 80%;
   margin: 0 auto;
 }
-
 }
-
 
 html {
  background-size: cover;
@@ -368,7 +367,7 @@ footer {
   left: 25px;
 }
 
-footer h2 {\
+footer h2 {
   color: white;
   font-size: 30px;
 }

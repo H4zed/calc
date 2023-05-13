@@ -21,13 +21,50 @@
   .button {
     width: 80%;
   }
+  .calc {
+  margin-top: 50px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.sc {
+  margin-top: 50px;
+}
+
+.kofi, .twitter, .discord, .email, .ig {
+  margin-right: 10px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #7761FF;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  width: 80%;
+  margin: 0 auto;
+}
+.form-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
 }
 
 
 html {
  background-size: cover;
  height: 100%;
-  background: linear-gradient(244.51deg, #7761FF -0.35%, #8AB8FF 101.93% );
+  background: linear-gradient(244.51deg, #7761FF -0.35%, #8AB8FF 101.93%) ;
   position: relative;
   z-index: 1;
 }

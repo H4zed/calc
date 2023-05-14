@@ -256,7 +256,7 @@ text-fill-color: transparent;
   text-align: center;
 }
 .form-input-group{
-  padding-left: 50px;
+  /*padding-left: 50px;*/
 	background: linear-gradient(244.51deg, #7761FF -0.35%, #8AB8FF 101.93%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
@@ -300,7 +300,6 @@ color: #061136;
 
 .form-group-cost #total-cost {
 
-
   margin: 0;
   padding: 0;
   font-size: 42px;
@@ -330,7 +329,9 @@ color: #061136;
 }
 
 .form-input-group input {
-  width: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+    width: 30px;
 }
 .sc {
   display: flex;
@@ -395,6 +396,7 @@ input:focus::placeholder {
 }
 
 input {
+
 	font-family: 'Fredoka One';
 font-style: normal;
 font-weight: 400;

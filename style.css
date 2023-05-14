@@ -68,20 +68,6 @@ img {
   width: 80%;
   margin: 0 auto;
 }
-.calc-content{
-  position: relative;
-  margin: 0 auto;
-  height: 84px;
-  width: 80%;
-  max-width: 100%;
-  background: #FFFFFF;
-  border-radius: 20px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-sizing: border-box;
-}
 .box{
   position: relative;
   background-color: white;
@@ -98,7 +84,12 @@ img {
   box-sizing: border-box;
 }
 .rectangle-content{
-  width: 80%
+  width: 100%;
+}
+.calc-content{
+  margin: 0 auto;
+margin-top: 50px;
+max-width: 100%;
 }
 .box_content{
   position: absolute;
@@ -172,6 +163,7 @@ color: transparent;
 text-fill-color: transparent;
 }
 .calc{
+  width: 100%;
     margin: 0 auto;
     
 }

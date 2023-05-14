@@ -36,19 +36,7 @@
     margin: 0 auto;
   margin-top: 50px;
 }
-.calc-content{
-  position: relative;
-  margin: 0 auto;
-  height: 84px;
-  width: 80%;
-  background: #FFFFFF;
-  border-radius: 20px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-sizing: border-box;
-}
+
 
 .form-group {
   margin-bottom: 20px;
@@ -79,6 +67,20 @@ img {
   font-weight: bold;
   width: 80%;
   margin: 0 auto;
+}
+.calc-content{
+  position: relative;
+  margin: 0 auto;
+  height: 84px;
+  width: 80%;
+  max-width: 100%;
+  background: #FFFFFF;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
 }
 .box{
   position: relative;

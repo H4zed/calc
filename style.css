@@ -33,7 +33,6 @@
     width: 80%;
   }
   .calc {
-    width: 80%;
     margin: 0 auto;
   margin-top: 50px;
 }
@@ -41,7 +40,7 @@
   position: relative;
   margin: 0 auto;
   height: 84px;
-  max-width: 100%;
+  width: 80%;
   background: #FFFFFF;
   border-radius: 20px;
   text-align: center;
@@ -56,8 +55,8 @@
 }
 
 .sc {
+  margin-bottom: 30px;
   width: 80%;
-  margin: 0 auto;
   margin-top: 50px;
 }
 
@@ -85,6 +84,7 @@ img {
   position: relative;
   background-color: white;
   height: 140px;
+  width: 80%;
   max-width: 100%;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -94,6 +94,9 @@ img {
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
+}
+.rectangle-content{
+  width: 80%
 }
 .box_content{
   position: absolute;

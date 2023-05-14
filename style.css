@@ -11,6 +11,7 @@ body {
     padding: 0;
   }
   input{
+
     font-size: 46px;
   }
   /* Adjust font sizes */
@@ -33,7 +34,7 @@ body {
   }
   .form-input-group input {
 
-    padding: 10px;
+    /*padding: 10px;*/
   }
   /* Hide social media icons */
   h2 {

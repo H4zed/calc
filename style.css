@@ -14,8 +14,8 @@ body {
     font-size: 46px;
   }
   /* Adjust font sizes */
-  h1 {
-    font-size: 32px;
+  .text {
+    font-size: 30px;
   }
   main{
     margin: 0 auto;

@@ -1,12 +1,11 @@
 /* CSS rules for small screens */
 @media screen and (max-width: 767px) {
-  html {
-    margin: 0 auto;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    overflow-x: hidden;
-  }
+  html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
   /* Adjust font sizes */
   h1 {
     font-size: 32px;

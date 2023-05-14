@@ -1,6 +1,7 @@
 /* CSS rules for small screens */
 @media screen and (max-width: 767px) {
   html {
+    margin: 0 auto;
     margin: 0;
     padding: 0;
   }
@@ -15,6 +16,7 @@
     align-items: center;
     justify-content: flex-start;
     min-height: 100vh;
+
   }
   .category-label {
     font-size: 18px;
@@ -115,6 +117,7 @@ html {
   background-image: linear-gradient(244.51deg, #7761FF -0.35%, #8AB8FF 101.93%);
 }
 body {
+
   font-family: 'Fredoka One', cursive;
 }
 h1, h2, h3, h4, h5, h6 {

@@ -68,6 +68,10 @@ img {
   width: 80%;
   margin: 0 auto;
 }
+.box{
+  width: 80%;
+  margin: 0 auto;
+}
 .form-container {
   width: 100%;
     max-width: 500px; /* Ширина контейнера для формы */
